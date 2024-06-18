@@ -3,6 +3,10 @@ import { UserModule } from "./user/user.module";
 import { StoreModule } from "./store/store.module";
 import { MealPackageModule } from "./mealPackage/mealPackage.module";
 import { ReservationModule } from "./reservation/reservation.module";
+import { AuthenticationModuleModule } from "./AuthenticationModule/authenticationmodule.module";
+import { OrderModuleModule } from "./OrderModule/ordermodule.module";
+import { ReservationManagementModuleModule } from "./ReservationManagementModule/reservationmanagementmodule.module";
+import { StoreManagementModuleModule } from "./StoreManagementModule/storemanagementmodule.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -24,6 +28,10 @@ import { AuthModule } from "./auth/auth.module";
     StoreModule,
     MealPackageModule,
     ReservationModule,
+    AuthenticationModuleModule,
+    OrderModuleModule,
+    ReservationManagementModuleModule,
+    StoreManagementModuleModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
